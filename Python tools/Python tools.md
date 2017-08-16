@@ -1,32 +1,6 @@
-###### DF2: Python for Data Science
-# Lesson 2: Common Data Science Tools
+###### DF2: Begining Python Workshop
+Common Data Python Tools
 
-| Lesson Assets    |
-| ---------------- |
-| [assets](assets) |
-
-----------------------------------
-
-### Lesson + Instructor Info
-
-_Lesson Title_*:   Common Data Science Tools
-
-_Duration* (minutes)_:  15
-
-
-
-### SME Info
-
-_Portfolio/LinkedIn_:  http://linkedin.com/in/hboyan
-
-_Name_:  Haley Boyan
-
-_Title_:  Data Scientist
-
-_SME Image_: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAgzAAAAJDZlNjg4M2ExLTg5YTktNGUwZC05NDEyLTFkNTc1N2E3N2Q3Ng.jpg
-
-
-### Summary Messages
 
 ##### Topics*
 
@@ -37,12 +11,11 @@ _SME Image_: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAgzAA
 * Open-source tools
 
 ##### Learning Objectives
-
-* Survey common tools used by data scientists.
-* Define the terminal, explain its features, and give examples of why it is useful.
+By the end of this section you will be able to:
+* Identify common tools used by data scientists.
+* Define the terminal and give examples of why it is useful.
 * Define common text editors and their purpose.
 * Define open-source tools, including Jupyter Notebooks, along with their benefits.
-
 
 ----------------------------------
 
@@ -52,15 +25,18 @@ _Slide Title_:  Introduction: The Data Scientist's Toolkit
 
 _Slide Content_:
 
-In order to do any work in the field of data science, you'll need a set of tools at your disposal. The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of the data science workflow. We will look at:
+In order to do any work with python, you'll need a set of tools at your disposal. The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow. We will look at:
 
 - The terminal (also referred to as Command Line or Command Prompt).
 - Text editors, including Sublime and Atom.
-- Open-source tools such as the Jupyter Notebook IDE.
+- Open-source tools such as the Jupyter Notebook IDE
+- Python environments such as Anaconds
 
 ----------------------------------
 
 ### Learning Objectives
+
+#### In order to do any work with python, you'll need a set of tools at your disposal. The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow.
 
 #### By the end of this section you will be able to...
 
@@ -82,13 +58,14 @@ In order to do any work in the field of data science, you'll need a set of tools
 ![alt text](assets/terminal.png "Terminal")
 
 Example: Terminal app on Macs, Git Bash on windows.  
-
+<!--
 *NOTE: The following slides include commands that may behave differently on Windows computers. [Bash](https://www.gnu.org/software/bash/) is a free Unix shell that allows the Windows command line to use many of the same commands. You can also [learn more about the Windows CLI itself](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwjX1vz4n8rUAhXC7D4KHfVaBZcQFggsMAI&url=https%3A%2F%2Fcommandwindows.com%2Fcommand3.htm&usg=AFQjCNGWUZPreYMfxE_IbAljVKcC5gXspA&sig2=axivxJhs6yrk1_FepckxzQ), if you'd rather go that route.*
+-->
 
-<!-
-
+<!--
 ----------------------------------
-
+--> 
+<!--
 _Slide Title_:  Navigating in the CLI: Paths
 
 _Slide Content_:
@@ -108,6 +85,7 @@ In the CLI:
   - `cd ..` will navigate you one directory back up the path.
   - To indicate the absolute path (and jump directly to any directory without navigating through each folder), add a */* to the beginning of the path. Without a */*, the CLI will interpret the path as looking for a subfolder.
 - `~` (tilde) is a reference to the home directory, so ```cd ~``` takes you "home," and ```~/directoryname``` takes you to a directory branching off the home directory.
+-->
 
 ----------------------------------
 
@@ -127,7 +105,6 @@ Below are some examples that use relative and absolute paths to complete the sam
 *Note: Directory is an important term that's often used interchangeably with folder. Although they are not exactly the same, when we say "navigate to your project directory," think of it as "navigate to your project folder."*
 
 ----------------------------------
-
 _Slide Title_:  Useful Commands in the CLI
 
 _Slide Content_:
@@ -143,8 +120,8 @@ Here are some useful commands to use within the CLI:
  - Remove a directory: ```rm -r foldername``` (the ```-r``` tells the computer to remove the folder AND any files/folders within it)
  - The asterisk (&ast;) indicates a wildcard character: ```ls *;i*;``` looks for any file or directory with the letter "i" in the name.
 
--->
-
+ -->
+ 
 ----------------------------------
 
 ### Ok, But Why?

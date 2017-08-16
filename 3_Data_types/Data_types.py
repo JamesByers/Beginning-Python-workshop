@@ -13,6 +13,7 @@ You can use single or double quotes.
 # BASIC DATA TYPES
 
 x = 5               # creates an object
+x==5                # evaluates to True
 print type(x)       # check the type: int (not declared explicitly)
 type(x)             # automatically prints
 type(5)             # assigning it to a variable is not required

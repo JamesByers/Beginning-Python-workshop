@@ -1,5 +1,5 @@
 # Begining Python Workshop
-##Common Data Python Tools
+## Common Data Python Tools
 
 ----------------------------------
 
@@ -11,10 +11,10 @@ By the end of this section you will be able to:
 * Define open-source tools, including Jupyter Notebooks, along with their benefits.
 
 ----------------------------------
-
+<!--
 ### Slideshow
 
-#### In order to do any work with python, you'll need a set of tools at your disposal
+#### In order to do work with python over time, you'll need a set of tools at your disposal
 The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow. We will look at:
 
 - The terminal (also referred to as Command Line or Command Prompt).
@@ -23,6 +23,7 @@ The tools discussed in this lesson allow you to create, compile, and distribute 
 - Python environments such as Anaconda  
 
 ----------------------------------
+-->
 
 ### Learning Objectives
 

@@ -210,7 +210,7 @@ Keep in mind that many open-source tools are created as plugins for text editors
 
 ----------------------------------
 
-### Review: Your available tool
+### Review: Your available tools
 
 At this point, you're aware of the tools necessary for completing most steps of the data science workflow. To review, we discussed:
 - Navigating your computer and running scripts with the *command line*.

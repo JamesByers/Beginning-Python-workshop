@@ -1,7 +1,7 @@
 # Begining Python Workshop
 ## Common Data Python Tools
 
-
+<!--
 ##### Learning Objectives
 By the end of this section you will be able to:
 * Identify common tools used by data scientists.
@@ -10,7 +10,7 @@ By the end of this section you will be able to:
 * Define open-source tools, including Jupyter Notebooks, along with their benefits.
 
 ----------------------------------
-<!--
+
 ### Slideshow
 
 #### In order to do work with python over time, you'll need a set of tools at your disposal

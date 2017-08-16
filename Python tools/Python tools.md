@@ -40,8 +40,8 @@ The tools discussed in this lesson allow you to create, compile, and distribute 
 
 ### Interacting with Python on Computers: The Command Line Interface
 
-
-** Whenever we use a computer, we need a way to "talk to it" so that we can tell it what to do. There are several ways to do this: **
+**Whenever we use a computer, we need a way to "talk to it" so that we can tell it what to do.**
+There are several ways to do this:
 - GUI (Graphical User Interface): This is what you're most familiar with. It's any system that allows you to interact with information by clicking, dragging, or otherwise arranging and selecting objects, usually with a combination of the mouse and keyboard. They're (ideally) visually appealing and intuitive to understand.
 - CLI (command line interface): Computers didn't always come with a GUI. Instead, everyone interacted with the computer using text commands in what we call a Command Line Interface (CLI). While you may not have seen it as a casual computer user, the command line still exists, and using it becomes essential as you program more.
 ![alt text](assets/cli.png "The Command Line Interface")
@@ -212,10 +212,12 @@ Keep in mind that many open-source tools are created as plugins for text editors
 
 ----------------------------------
 
-### Review: Your availabl tool
+### Review: Your available tool
 
 At this point, you're aware of the tools necessary for completing most steps of the data science workflow. To review, we discussed:
 - Navigating your computer and running scripts with the *command line*.
 - Creating code and complex scripts in your choice of *text editors*.
 - Upgrading your toolkit with open-source content such as plugins for text editors and interfaces including Jupyter Notebook..
-With these tools at your disposal, you'll be in great shape aas you progress your Python capabilities!
+With these tools at your disposal, you'll be in great shape as you progress your Python capabilities!
+
+We will work today with the simplest way to interact with Python by using **???**

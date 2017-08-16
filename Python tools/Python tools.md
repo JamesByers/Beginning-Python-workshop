@@ -185,25 +185,23 @@ Some examples are:
 
 ### Common Text Editors
 
-_Slide Content_:
+#### People use a variety of text editors. There's always a debate over [the best](http://blog.liveedu.tv/10-best-text-editors-programming-2016/)
 
-People use a variety of text editors. There's always a debate over [the best](http://blog.liveedu.tv/10-best-text-editors-programming-2016/). We've listed some of the most popular text editors among programmers below. You should download and install one of these to use throughout this course.
+**These are some of the most popular text editors among programmers below. You will want to download one of these and become familiar with it over time.**
 
 1. [Sublime](https://www.sublimetext.com/): This is a very popular text editor, mostly because of its many features. It's efficient and versatile, and a variety of plugins have been developed to add to its functionality. However, it is not free, so many people turn to other editors.
 2. [VIM](http://www.vim.org/): This is one of the older text-editing programs available and is completely customizable, so it's popular among enthusiasts. It is very efficient, can be used completely without a mouse, and comes standard on most Unix-based computers. It is open source and free to use but is less intuitive than other editors and can be difficult to learn.
 3. [Atom](https://atom.io/): One of the newer editors on the market, Atom has already proven to be quite popular. It's "hackable," in that it can be developed for and customized as much as the user wants. There are also many, many plugins available on the internet. Atom is free to use and easy to pick up for beginners. The downside is that it's not very efficient, consumes a lot of memory, and can have some difficulty with large files. For a beginning programmer, however, Atom is a great resource.
 4. [Notepad ++](https://notepad-plus-plus.org/features/): This is another open-source editor and is very agile. It's also simplistic, resembling the familiar Notepad program. It supports most programming languages without any installation or plugins and can manage large files with ease. The interface is not very intuitive, however, and lacks helpful features for beginning coders that the other applications include.
 
-GA often recommends Atom as our text editor of choice, as most of the necessary features are available in the trial version, but you're welcome to use any of the above (or others) if you have a preference.
+GA often recommends Atom as their text editor of choice, as most of the necessary features are available in the trial version, but you're welcome to use any of the above (or others) if you have a preference.
+
 ----------------------------------
 
-_Slide Title_: Other Open-Source tools
+### Other Open-Source tools
 
-_Slide Content_:
+#### Other tools you'll encounter in Python development and in data science are:
 
-Two tools you'll encounter in data science are:
-
-Two very popular tools that you will almost certainly encounter with Python are:
 - [Git and GitHub](www.github.com): This version control software is used by individual programmers to track the progress of their projects and by teams to collaborate in an organized way. You will become more familiar with this program throughout the course, but, for now, consider it a way to organize and share files that preserves the history of their changes and keeps them safer.
 - [Jupyter Notebooks](jupyter.org/): Found in the Anaconda suite of tools (which is worth exploring in itself), the Jupyter Notebook tool allows you to create your code in organized "notebooks," which can intersperse code chunks (that can run individually in any order) with markdown text, allowing for easy annotation and clear, organized scripts. Jupyter offers an alternative to a text editor and is what is know as an integrated development environment (IDE), in which script can easily be written and executed. Throughout this course, we'll often present materials in a Jupyter Notebook to allow for easy demonstration of code, as well as offer well-formatted explanatory text, images, and videos.
 - [Anaconda data science environment](https://www.continuum.io/what-is-anaconda)

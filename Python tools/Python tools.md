@@ -109,18 +109,18 @@ Here are some useful commands to use within the CLI:
  
 ----------------------------------
 
-### Ok, But Why?
+### Ok, but why use command line?
 
-_Slide Content_:
-
-The command line is a very different way of doing things than you're used to. The commands we've looked at so far are very simple, and these tasks could easily be done through the GUI. However, you're learning to code, and that requires a different type of computer interaction.
-
+The command line is a very different way of doing things than you may be used to
 <br>
 The key benefit to you as a coder is that the command line gives you a whole set of new, powerful tools. Everything on the computer is scripted, which means it's all bits of code. This code can be run, examined, and manipulated within the command line. As a result, you can understand and even change what's happening in the programs you run, and especially those you create.
 <br>
+<br>
 Using the CLI also allows you to write your own code and run it without building your own GUI.
 <br>
+<br>
 You can also automate processes within the command line to simplify many tasks, such as running a script at a certain time or looping an action (e.g., refreshing the internet every 30 seconds).
+<br>
 <br>
 You'll find many other reasons to interact with the command line throughout your coding endeavors. Most people you ask who have been in the field for awhile will tell you that they frequently use this tool. So, whether or not it seems useful to you now, it will be soon!
 

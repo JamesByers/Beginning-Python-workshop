@@ -18,7 +18,6 @@ _Explanation*_:  "I chose Python as a working title for the project, being in a 
 ----------------------------------
 ## Learning Objectives
 
-
 #### By the end of this lesson you will be able to...
  
 + Demonstrate how to assign and manipulate variables.
@@ -154,12 +153,6 @@ In Python, indentation is mandatory. If a line ends in a colon, at least the nex
 
 ----------------------------------
 
-## Learning Objective: 
-
-**How to Assign and Manipulate Variables**
-
-
-----------------------------------
 
 ## Operators
 
@@ -174,9 +167,7 @@ An integer added to an integer evaluates to an integer. A string added to a stri
 <!--
 ----------------------------------
 
-### Operators, Cont.
-
-_Slide Content_:
+## Operators, Cont.
 
 It is important to know the data type on each side of the operator. This defines what the operator will produce. For example, think about what you might expect these to evaluate to, then try them out:
 

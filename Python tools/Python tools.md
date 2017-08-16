@@ -14,7 +14,7 @@ By the end of this section you will be able to:
 ### Slideshow
 
 #### In order to do work with python over time, you'll need a set of tools at your disposal
-The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow. We will look at:
+These tools allow you to create and distribute the code necessary to complete all the steps of a python development workflow. We will look at:
 
 - The terminal (also referred to as Command Line or Command Prompt).
 - Text editors, including Sublime and Atom.

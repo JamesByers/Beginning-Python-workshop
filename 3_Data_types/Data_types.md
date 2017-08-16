@@ -154,20 +154,14 @@ In Python, indentation is mandatory. If a line ends in a colon, at least the nex
 
 ----------------------------------
 
-_Slide Title_:  Learning Objective: 
-
-_Slide Content_:
+## Learning Objective: 
 
 **How to Assign and Manipulate Variables**
 
-In this section, we will discuss operators.
 
 ----------------------------------
 
-_Slide Title_: Operators
-
-_Slide Content_:
-
+## Operators
 
 In Python, **operators** act on one or two objects and evaluate to a single object. For example:
 
@@ -177,7 +171,7 @@ In Python, **operators** act on one or two objects and evaluate to a single obje
 An integer added to an integer evaluates to an integer. A string added to a string evaluates to a string.
 
 > Make sure you actively try these yourself in the REPL. **Pro tip:** Behind the scenes, Python actually [converts each operator into a function call](https://docs.python.org/3/library/operator.html#mapping-operators-to-functions)! For example, `'a' + 'b'` is evaluated as `'a'.__add__('b')`. The dot indicates we are calling a method of the `'a'` object. We will look at objects in more detail in Lesson 2!
-
+<!--
 ----------------------------------
 
 ### Operators, Cont.
@@ -193,23 +187,26 @@ It is important to know the data type on each side of the operator. This defines
 The results of these operators do "make sense" given what we know about multiplication! In Python, many of the libraries were created by people to "make sense" in this way. So, we can usually guess what might work and be correct.
 
 Note there is no "correct" answer about what these should output! The results of these operators acting on specific data types was decided on by a person. They could have just as easily been defined so that multiplying a string by an integer is nonsense and hence a syntax error! (In fact, this is the case in many languages such as C.)
+-->
 
 ----------------------------------
 
-_Slide Title_: The Assignment Operator
+## The Assignment Operator
 
-_Slide Content_:
+#### The assignment operator is a single equals sign (`=`). It associates a **name** with a value
 
-The assignment operator is a single equals sign (`=`). It associates a **name** with a value. For example:
+**For example:**
 
 - `num_cookies = 3`
 - `first_name = 'Sally'`
 
-The assignment operator is very different from the equals sign we are familiar with in math. Instead of asserting the two sides are equal, the assignment operator **defines** a name. It first evaluates the right-hand side, then associates the name on the left-hand side to the the result of the evaluation. The above two lines of code work as follows:
+The assignment operator is very different from the equals sign we are familiar with in math
+- Instead of asserting the two sides are equal, the assignment operator **defines** a name (object)
+- It first evaluates the right-hand side, then associates the name on the left-hand side to the the result of the evaluation. The above two lines of code work as follows:
 
 - An integer object is created with value 3. Then, we point the name `num_cookies` to it.
 - A string object is created with value 'Sally'. Then, we point the name `first_name` to it.
-
+<!--
 ----------------------------------
 
 _Slide Title_: The Assignment Operator, Cont.
@@ -246,7 +243,7 @@ _Choices:*_
 4. `Data Science is awesome!`
 
 _Explanation*_: Applying the `-` unary operator to a string sounds confusing as to what it might produce. After all, a string does not have a "negative" value like a number does. Although it is plausible that it would reverse the string, this does not sound like a very natural definition. So, it will likely produce a `TypeError`, aka not be a defined operation. This may sound a bit like an arbitrary question; however, good programmers often guess at what likely "makes sense" rather than memorizing everything. You will find that your guesses will eventually be very accurate.
-
+-->
 ----------------------------------
 
 _Slide Title_: The Comparison Operator
@@ -254,23 +251,26 @@ _Slide Title_: The Comparison Operator
 _Slide Content_:
 
 
-In Python, the equality sign from math class still exists — it is now the double equals `==`. This operator compares two objects and evaluates to either `True` or `False` only if the values are the same. For example:
+In Python, the equality sign from math still exists — it is now the double equals `==`. This operator compares two objects and evaluates to either `True` or `False`.
+
+"==" returns a 'True' only if the values are the same. For example:
 
 - `2 == 2` -> `True`
 - `2 == 3` -> `False`
 - `'hi' == 'hi'` -> `True`
 - `'hi' == 'bye'` -> `False`
 
+<!--
 It is important to note that `==` is an operator just like `+`. Compare the following:
 
 - `num_cookies = 1 + 2` -> `3`
 - `is_confirmed = 'yes'`  
   `is_confirmed == 'yes' -> 'True' `
-
+-->
 > **Pro tip:** To combine multiple operators, use parentheses to avoid any possibility of ambiguity, e.g., `('1' + '2') == '12'`
 
 ----------------------------------
-
+<!--
 _Slide Title_: Learning  Objective:
 
 _Slide Content_:
@@ -280,21 +280,16 @@ _Slide Content_:
 We have already worked with a few data types, namely integers and strings. We saw that knowing the data type of each object is very important.
 
 Recall that your computer stores everything in binary as 1s and 0s, whether it is integers or text characters. **Data types** tell the computer how to interpret these 1s and 0s. For example, the same sequence `01000001` can represent the integer `65` or the character `'A'`.
-
+-->
 ----------------------------------
 
-_Slide Title_: Data Types
-
-_Slide Content_:
-
-
+## Data Types
 
 Python comes with only a few data types. The complete list of built-in data types is: `None`, Booleans, Numbers (`int`/`float`/`long`/`complex`), Strings, Lists, Tuples, Sets, and Dictionaries.
 
-Let's explore these data types further and play with them in the REPL!
+Let's explore these data types further and play with them the Spyder IDE in the Anaconda environment!
 
-> You can actually think about the data science libraries as merely adding new data types to Python — `ndarray` (NumPy), `Series` (Pandas), and `DataFrame` (Pandas).
-
+<!--
 ----------------------------------
 
 _Slide Title_: Integers
@@ -446,74 +441,78 @@ _Explanation*_: First, the right-hand side of the assignment operator is evaluat
 In the second line, `result` is looked up to be `12`. So, the second line can be considered as: `print(int(`12`) + 3)`. The string `12` is converted to an integer then summed with the integer `3`, making `15`.
 
 Note that adding a string and an integer would have given a `TypeError`. (This is another language design choice — in other languages such as JavaScript, adding these types would not produce an error!)
-
+-->
 
 ----------------------------------
 
-_Slide Title_: Learning Objective
-
-_Slide Content_:
-
-** Demonstrate basic string indexing and built-in methods.**
+## Perform basic string indexing and use built-in methods
 
 In this section, we will look at how to get individual characters of a string. We will also see how we can use built-in Python methods to manipulate strings.
 
 ----------------------------------
 
-_Slide Title_: Indexing
+## Indexing
 
-_Slide Content_:
+#### We noted earlier that a string is a sequence of characters Hence, we should be able to get the value of any individual character
+
+- In Python, we do this using **zero-based indexing**, where the first character is referenced by index 0. So, the last character in the string would be referenced by one less than the number of characters.
 
 
-We noted earlier that a string is a sequence of characters. Hence, we should be able to get the value of any individual character. In Python, we do this using **zero-based indexing**, where the first character is referenced by index 0. So, the last character in the string would be referenced by one less than the number of characters.
+- We can use the `len()` built-in function on any Python object that might have a length. Here, the length of a string is the number of characters in it.
 
+- We can use the indexing operator `[]` to get a particular character in the string.
 
-We can use the `len()` built-in function on any Python object that might have a length. Here, the length of a string is the number of characters in it.
-
-We can use the indexing operator `[]` to get a particular character in the string.
-
-Suppose we are define `title = 'President'`. Then, `title[0]` is the character `'P'`. `len(title)` evaluates to `9` since there are nine characters in `'President'`. So, `title[8]` is the character `t` due to zero-based indexing. More generically, `title[len(title)-1] ` evaluates to `'t'`.
+Suppose we define `title = 'President'.  Then:
+- `title[0]` is the character `'P'`
+- `len(title)` evaluates to `9` since there are nine characters in `'President'`
+- Note: `title[8]` is the character `t` due to zero-based indexing. More generically, `title[len(title)-1] ` evaluates to `'t'`.
 
 ----------------------------------
-
+<!--
 _Slide Title_: Indexing, Cont.
 
 _Slide Content_:
 
 
 Since `title` is a name that just points to the `'President'` object, you can also index into a newly created string! For example, `'giraffe'[0]` evaluates to `'g'`. Here, a string object is created then it is indexed into. When we wrote `title[0]`, it looked up the object `title` pointed to then indexed into it.
-
+-->
 Later, we will discuss **slicing**, an extension of indexing.
 
 > **Explore:** What do you think might happen if you index by a negative number? What if you index by a number greater than the length of the string? Do your answers agree with the choices the Python language designers made?
 
-
+-->
 ----------------------------------
 
-_Slide Title_: Everything Is an Object!
+## Everything Is an Object!
 
-_Slide Content_:
+In Python, you will hear that everything is an object. What does this mean? 
+- An **object** is just a particular grouping of functions and variables
+	- The functions of an object are called **methods**
+	- The contents of an object are held in its variables
+- For example, a string contains variables, the characters! 
+	- It also contains methods that act on the string, for example `upper()` which converts the string to uppercase
+	- Methods are called by using a period after the variable name. 
 
-In Python, you will hear that everything is an object. What does this mean? An **object** is just a particular grouping of functions and variables. The functions of an object are called **methods** — functions that "belong to" an object (and typically act on its variables).
-
-For example, a string contains variables — the characters! It also contains methods that act on the string, for example `upper()` converts the string to uppercase. These methods are called by using a period after the variable name. 
-
-For example: `'dog'.upper()`. This first creates a new string object, then it calls its `upper()` method. This function returns an object, in this case the upper-case string `'DOG'`. If you set `animal = 'dog'`, then you can all `upper()` the same way, `animal.upper()`. Here, it looks up the object that `animal` points to then calls its `upper()` method.
-
+For example: `'dog'.upper()`
+	- This python statement first creates a new string object 'dog', then it calls its `upper()` method. 
+	- The statement returns an object, in this case the upper-case string `'DOG'`. 
+	- If you set `animal = 'dog'`, then you can call `upper()` the same way since the animal object has the upper method available
+		- `animal.upper()` evaluates to 'DOG'
+		
 ----------------------------------
+## Everything Is an Object!
 
-_Slide Title_: Everything Is an Object!, Cont.
 
-_Slide Content_:
-
-To view what methods are available in a REPL or Jupyter, type: `'dog'.` (with a trailing period), then hit the `tab` key (only if you are using `ipython`). Alternatively, you can call the built-in function `dir()` (short for "directory"), e.g., `dir('dog')`. To see what each method does, call the `help()` function, e.g., `help('dog'.upper)`. You can also refer to the [documentation online](https://docs.python.org/3/library/stdtypes.html#string-methods). It is worth it for practice to try out each of the string methods, since you will be using them so often!
+To view what methods are available in a Spyder, type: `'dog'.` (with a trailing period), then hit the `tab` key
+<!--  Alternatively, you can call the built-in function `dir()` (short for "directory"), e.g., `dir('dog')`. -->
+To see what each method does, call the `help()` function, e.g., `help('dog'.upper)`. You can also refer to the [documentation online](https://docs.python.org/3/library/stdtypes.html#string-methods). It is worth it for practice to try out each of the string methods, since you will be using them so often!
 
 Try out some of the other string methods! Define a new string variable `name` containing your full name. Then, using the techniques above try out some of the available methods. In particular, try `name.capitalize()`, `name.title()`, `name.islower()`, `name.center(40)`, and `name.center(40, '*')`.
 
 > **Pro tip:** Note that `'dog'.upper` is a name, too. It points to an object — a function object! Try: `type('dog'.upper)`. When Python sees an open parenthesis immediately following a name, it knows you must be making a function call.
 
 ----------------------------------
-
+<!--
 _Slide Title_: Lesson Demo
 
 _Slide Content_:
@@ -521,16 +520,18 @@ _Slide Content_:
 [Want to see an example of these in-action? Check out our brief overview.](https://generalassembly.wistia.com/medias/f894zqb0dm?embedType=async&videoFoam=true&videoWidth=640)
 
 --------------------------------
+-->
 
-_Slide Title_: Lesson Practice
-
+## Practice
+<!--
 _Slide Content_:
 
 Ready for some practice? Go to [repl.it/python](https://repl.it/languages/python) and try your hand at the following challenges. Repl.it is a safe online code editor that will allow you to practice the material you've learned here.
 
 * For best results, don't move onto the next slide until you've tried every step!
-
-## Open up [Repl.it](https://repl.it/languages/python) and give these a try:
+-->
+###  Open up a new python tab in Spyder and create code to do the following.
+You can start with the python_data_type_index_practice.py file
 
 1. Create an `int` called `my_int` and set it equal to `5`.
 		
@@ -554,7 +555,7 @@ Ready for some practice? Go to [repl.it/python](https://repl.it/languages/python
 
 
 --------------------------------
-
+<--
 _Slide Title_: Lesson Practice Solutions
 
 _Slide Content_:
@@ -598,167 +599,22 @@ Have you finished practicing? Next, check your work against our suggested soluti
 		print(str(my_int)+my_string)
 
 ----------------------------------
+-->
+## Lesson Review
 
-_Slide Title_: Lesson Review
-
-_Slide Content_:
-
-_By now you should have a solid understanding of..._
+### By now you should have a solid understanding of..._
 
 + Python's role in data science.
 + How to assign and manipulate variables.
 + Primitive Python data types and common use cases (e.g., int, float, str).
 + Basic string indexing and built-in methods.
 
-**End-of-Lesson Quiz**
-
-The following eight-question quiz is designed to help you assess your knowlege of the above criteria.
 
 ----------------------------------
 
-_Description_: Select the best answer.
+## Additional Resources
 
-_Prompt*_:  Which of the following is untrue about Python?
-
-_Choices:*_
-
-1. Some Python modules, such as `numpy`, are partially written in C, allowing them to be fast and memory-efficient.
-2. Python has many built-in data types, including Strings, Numbers, Tables, and Dictionaries. *
-3. Many third-party modules exist, making it easy to utilize objects, functions, and classes others have created.
-4. Python is interpreted and allows you to interactively evaluate code.
-
-_Explanation*_: Tables are not a built-in data type. However, third-party libraries such as Pandas provide additional data types such as the `DataFrame`, which is similar to a table.
-
-----------------------------------
-
-_Description_: Select the best answer.
-
-_Prompt*_: What does the following Python code evaluate to?
-
-```
-str(1 + 1)
-```
-
-_Choices:*_
-
-1. `2`
-2. `11`
-3. `'2'` *
-4. `'11'`
-5. None of the above
-
-_Explanation*_: First, `1 + 1` is evaluated to `2`, since both are integers. Next, the `str()` built-in function is called, converting the integer `2` to the string `'2'`.
-
-----------------------------------
-
-_Description_: Select the best answer.
-
-_Prompt*_:  What are the data types of the following? `+42`, `1`, `False`, `float(False)`
-
-_Choices:*_
-
-1. `int`, `bool`, `bool`, `float`
-2. `int`, `int`, `bool`, `bool`
-3. `int`, `float`, `bool`, `bool`
-4. `int`, `int`, `bool`, `float` *
-
-_Explanation*_: The `float()` built-in function converts the value passed in to a `float`! Note that `1` by itself is an `int` (even though `True` is internally represented as `1`).
-
-----------------------------------
-
-_Description_: Select the best answer.
-
-_Prompt*_: Suppose that `answer = 'Yes'`. What is stored in `is_correct` after this code is evaluated?
-
-```
-is_correct = (answer.lower() != "yes")
-```
-
-_Choices:*_
-
-1. `"yes"`
-2. `'True'`
-3. `'False'`
-4. `True`
-5. `False` *
-
-_Explanation*_: Note that three of the possible answers are string types. The comparison operators never evaluate to strings — only to booleans, `True` or `False`. So, these are the only valid answers. Let's walk through how the rest of the code is evaluated. First, `answer.lower()` evaluates to `'yes'`. Next, we see the operator `!=`. Because `'yes'` is the same as `'yes'`, they are not unequal — so the `!=` operator will evaluate to `False`. So, this statement becomes `is_correct = False` and `False` is assigned to the name `is_correct`. 
-
-----------------------------------
-
-_Description_: Select the best answer.
-
-
-_Prompt*_:  What is the value of `title` after the following code is run?
-
-```python
-title = 'Data Science'
-title = title + ' is awesome!'
-```
-
-_Choices:*_
-
-1. `Data Science`
-2. `Data Scienceis awesome!`
-3. `Data Science is awesome!` *
-4. `data science is awesome!`
-
-_Explanation*_: Here, adding two strings concatenates them! Note there is a space in between the quote and `is`, so that will be contained in the final string.
-
-----------------------------------
-
-_Description_: Select the best answer.
-
-_Prompt*_:  Every hour, I want my computer to run some Python code that scrapes a website. Which method would be the most practical way to run the code?
-
-_Choices:*_
-
-1. Manually run the code interactively in an `ipython` REPL.
-2. Have the computer run a Python script. *
-3. Save a Jupyter notebook then execute the notebook.
-
-_Explanation*_: We would definitely not want to manually run the code every hour! Jupyter notebook files can possibly be run automatedly, but they contain a lot of extraneous information and are typically only used interactively. A script, however, is intended to be run independently.
-
-> Note that it is very healthy to use a REPL or Jupyter notebook to experiment with scraping. However, the working code would ultimately be copied over to a script.
-
-----------------------------------
-
-_Description_: Select the best answer.
-
-_Prompt*_:  Suppose you are writing a new function intended to load in data. [According to PEP 8](https://www.python.org/dev/peps/pep-0008/), which of the following function names would be most appropriate?
-
-_Choices:*_
-
-1. `loadData`
-2. `load_data` *
-3. `LoadData`
-4. `LOAD_DATA`
-
-_Explanation*_:  Both function names and variable names should be written `lower_case_with_underscores`. Constant variables (that never change value) are written `UPPER_CASE_WITH_UNDERSCORES`. Class names and type variable names are written `CamelCase`. In Python, we generally do not use `mixedCase`. **Pro tip:** After writing more Python code, PEP 8 will become more interesting!
-
-----------------------------------
-
-_Description_: Select the best answer.
-
-_Prompt*_: Suppose `greeting = 'hi'`. Which of the following does not evaluate to `'Hi'`?
-
-_Choices:*_
- 
-1. `greeting.upper()[0].lower() + greeting[1]` *
-2. `greeting.upper()[0] + greeting[1].lower()`
-3. `greeting[0].upper() + greeting[1]`
-4. `greeting.capitalize()`
-5. All of the above evaluate to `'Hi'`.
-
-_Explanation*_: Recall that adding two strings concatenates them. Reading left to right, `greeting.upper()` evaluates to `'HI'`. So, `greeting.upper()[0]` indexes the first character which is `'H'`. Adding on a final `lower()`, `greeting.upper()[0].lower()` becomes `'h'`. So `'h' + greeting[1]` evaluates to `'hi'`, which is not `'Hi'`. From your exploration earlier of string methods, `capitalize()` is a built-in method that capitalizes only the first letter and lowercases everything else.
-
-----------------------------------
-
-_Slide Title_: Additional Resources
-
-_Slide Content_:
-
-If you're interested in gaining more practice with this topic, check out the following resource:
+#### If you're interested would like to gain more practice with these topics, check out the following resources:
 
 - [Datacamp: Intro to Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science), Section 1: "Python Basics." Specifically, see the parts on "variable types" onwards.
 - [Codecademy: Python](https://www.codecademy.com/learn/python), Section 5: "Lists and Dictionaries."

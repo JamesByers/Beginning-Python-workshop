@@ -1,14 +1,5 @@
-###### DF2: Begining Python Workshop
+###### Begining Python Workshop
 Common Data Python Tools
-
-
-##### Topics*
-
-* Python 
-* Text editors
-* IDEs
-* Terminal
-* Open-source tools
 
 ##### Learning Objectives
 By the end of this section you will be able to:
@@ -21,29 +12,27 @@ By the end of this section you will be able to:
 
 ### Slideshow
 
-_Slide Title_:  Introduction: The Data Scientist's Toolkit
-
-_Slide Content_:
-
-In order to do any work with python, you'll need a set of tools at your disposal. The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow. We will look at:
+#### In order to do any work with python, you'll need a set of tools at your disposal
+The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow. We will look at:
 
 - The terminal (also referred to as Command Line or Command Prompt).
 - Text editors, including Sublime and Atom.
 - Open-source tools such as the Jupyter Notebook IDE
-- Python environments such as Anaconds
+- Python environments such as Anaconda  
 
 ----------------------------------
 
 ### Learning Objectives
 
-#### In order to do any work with python, you'll need a set of tools at your disposal. The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow.
+#### In order to do any work with python, you'll need a set of tools at your disposal
+The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow
 
 #### By the end of this section you will be able to...
 
 + Discuss common python tools used by data scientists
 + Define the terminal, explain its features, and give examples of why it is useful.
 + Define common text editors and their purpose
-+ Define open-source tools, including Jupyter Notebooks, along with their benefits
++ Define open-source tools, including Jupyter Notebooks and Anaconda along with their benefits
 
 ----------------------------------
 
@@ -61,17 +50,17 @@ Example: Terminal app on Macs, Git Bash on windows.
 <!--
 *NOTE: The following slides include commands that may behave differently on Windows computers. [Bash](https://www.gnu.org/software/bash/) is a free Unix shell that allows the Windows command line to use many of the same commands. You can also [learn more about the Windows CLI itself](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwjX1vz4n8rUAhXC7D4KHfVaBZcQFggsMAI&url=https%3A%2F%2Fcommandwindows.com%2Fcommand3.htm&usg=AFQjCNGWUZPreYMfxE_IbAljVKcC5gXspA&sig2=axivxJhs6yrk1_FepckxzQ), if you'd rather go that route.*
 -->
-
 <!--
 ----------------------------------
 --> 
+
 <!--
 _Slide Title_:  Navigating in the CLI: Paths
-
-_Slide Content_:
-
+-->
+<!--
 Every file or folder in a file system can be read, written, and deleted by referencing its position inside the file system.
-
+-->
+<!--
 When we talk about the position of a file or a folder in a file system, we refer to its "path." There are a couple of different kinds of paths we can use to refer to a file: the absolute path and the relative path.
 
 - **Absolute path:** The  specific location of a file or folder from the root directory, typically shown as /. The root directory is the starting point from which all other folders are defined. It is *not* normally the same as your home directory, which is usually found at `/Users/[Your Username]`.
@@ -86,14 +75,13 @@ In the CLI:
   - To indicate the absolute path (and jump directly to any directory without navigating through each folder), add a */* to the beginning of the path. Without a */*, the CLI will interpret the path as looking for a subfolder.
 - `~` (tilde) is a reference to the home directory, so ```cd ~``` takes you "home," and ```~/directoryname``` takes you to a directory branching off the home directory.
 -->
-
+<!--
 ----------------------------------
+-->
+<!--
+### Examples of Absolute and Relatives Paths
 
-_Slide Title_: Examples of Absolute and Relatives Paths
-
-_Slide Content_:
-
-Below are some examples that use relative and absolute paths to complete the same action:
+#### Below are some examples that use relative and absolute paths to complete the same action:
 1. My present location is ```/folder/subfolder``` and now I want to change directory to ```/folder```
 - Using a relative path: ```cd ..```
 - Using an absolute path: ```cd /folder```

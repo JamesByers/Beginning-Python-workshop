@@ -233,9 +233,9 @@ _Choices:*_
 4. `Data Science is awesome!`
 
 _Explanation*_: Applying the `-` unary operator to a string sounds confusing as to what it might produce. After all, a string does not have a "negative" value like a number does. Although it is plausible that it would reverse the string, this does not sound like a very natural definition. So, it will likely produce a `TypeError`, aka not be a defined operation. This may sound a bit like an arbitrary question; however, good programmers often guess at what likely "makes sense" rather than memorizing everything. You will find that your guesses will eventually be very accurate.
-
-----------------------------------
 -->
+----------------------------------
+
 ## The Comparison Operator
 
 #### In Python, the equality sign from math still exists — it is now the double equals `==`
@@ -268,8 +268,8 @@ _Slide Content_:
 We have already worked with a few data types, namely integers and strings. We saw that knowing the data type of each object is very important.
 
 Recall that your computer stores everything in binary as 1s and 0s, whether it is integers or text characters. **Data types** tell the computer how to interpret these 1s and 0s. For example, the same sequence `01000001` can represent the integer `65` or the character `'A'`.
--->
-----------------------------------
+--------------------------------
+---->
 
 ## Data Types
 

@@ -277,9 +277,10 @@ Python comes with only a few data types. The complete list of built-in data type
 
 Let's explore these data types further and play with them the Spyder IDE in the Anaconda environment!
 
-<!--
-----------------------------------
+Open the data_types.py file in spyder and explore the examples there.  Try variants of those till you get comfortable with the syntax and results.
 
+----------------------------------
+<!--
 _Slide Title_: Integers
 
 _Slide Content_:
@@ -430,12 +431,15 @@ In the second line, `result` is looked up to be `12`. So, the second line can be
 
 Note that adding a string and an integer would have given a `TypeError`. (This is another language design choice — in other languages such as JavaScript, adding these types would not produce an error!)
 -->
-
+----------------------------------
+<br>
+<br>
 ----------------------------------
 
-## Perform basic string indexing and use built-in methods
+# Perform basic string indexing and use built-in methods
 
-In this section, we will look at how to get individual characters of a string. We will also see how we can use built-in Python methods to manipulate strings.
+### In the next section, we will look at how to get individual characters of a string
+### We will also see how we can use built-in Python methods to manipulate strings
 
 ----------------------------------
 

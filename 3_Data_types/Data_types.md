@@ -149,10 +149,9 @@ _Choices:*_
 _Explanation*_: Spaces are often preferred because tabs can have inconsistent widths on different computers. This can cause code to not line up as expected. **Pro tip:** Many text editors, including Sublime Text and PyCharm, have options to automatically convert tabs to spaces as you type.
 
 In Python, indentation is mandatory. If a line ends in a colon, at least the next line must be indented. For example, statements that begin with `if`, `for`, and `def` all end in a colon. So, they must be followed by at least one indented line.
--->
 
 ----------------------------------
-
+-->
 
 ## Operators
 
@@ -234,15 +233,13 @@ _Choices:*_
 4. `Data Science is awesome!`
 
 _Explanation*_: Applying the `-` unary operator to a string sounds confusing as to what it might produce. After all, a string does not have a "negative" value like a number does. Although it is plausible that it would reverse the string, this does not sound like a very natural definition. So, it will likely produce a `TypeError`, aka not be a defined operation. This may sound a bit like an arbitrary question; however, good programmers often guess at what likely "makes sense" rather than memorizing everything. You will find that your guesses will eventually be very accurate.
--->
+
 ----------------------------------
+-->
+## The Comparison Operator
 
-_Slide Title_: The Comparison Operator
-
-_Slide Content_:
-
-
-In Python, the equality sign from math still exists — it is now the double equals `==`. This operator compares two objects and evaluates to either `True` or `False`.
+#### In Python, the equality sign from math still exists — it is now the double equals `==`
+**This operator compares two objects and evaluates to either `True` or `False`**
 
 "==" returns a 'True' only if the values are the same. For example:
 

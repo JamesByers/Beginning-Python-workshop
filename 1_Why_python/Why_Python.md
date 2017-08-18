@@ -3,7 +3,7 @@
 
 ### Welcome to Python
 
-**The coding language we'll using is [Python](https://www.python.org/)**
+**The coding language we'll be using is [Python](https://www.python.org/)**
 
 Python is a free, object-oriented programming language used in a wide variety of development contexts.
 

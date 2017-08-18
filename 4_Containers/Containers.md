@@ -415,7 +415,7 @@ In this section, we will look at how to define dictionaries, as well as some com
 
 ## Dictionaries
 
-####Similarly to sets, a dictionary is defined using curly braces
+#### Similarly to sets, a dictionary is defined using curly braces
 
 - Each element of a set consists of a key, followed by a colon, followed by a value. So, the presence of colons can be used to distinguish between a "set literal" and a "dictionary literal". For example:
 
@@ -448,17 +448,14 @@ Another way of thinking about a dictionary is as a set of keys and a list of val
 - `book_authors.keys()` — to convert it to a set, you can use the built-in `set()` function.
 - `book_authors.values()`
 
-Similar to a set, you should assume that a dictionary is **unordered** and therefore that the key-value pairs do not exist in any particular order.
+You should realize that a dictionary is **unordered** and therefore that the key-value pairs do not exist in any particular order.
 
 ----------------------------------
 
-_Slide Title_:   Review: Container Data Types
+## Review: Container Data Types
 
-_Slide Content_:
+#### Let's review the properties of the data types we discussed in this lesson — the built-in containers.
 
-
-Let's review the properties of the data types we discussed in this lesson — the built-in containers.
-<!--
 | --- | Lists | Tuples | Sets | Dictionaries |
 | --- | --- | --- | --- | --- |
 | Container | Yes | Yes | Yes | Yes |
@@ -466,26 +463,23 @@ Let's review the properties of the data types we discussed in this lesson — th
 | Immutable | - | Yes | - | - |
 | Elements must be unique | - | - | Yes | Yes (keys only) |
 | Fast membership lookups | - | - | Yes | Yes (keys only) |
-<!--
-----------------------------------
 
+----------------------------------
+<!--
 _Slide Title_: Lesson Demo
 
 _Slide Content_:
 
 [Next, check out the following video for a brief demonstration.](https://generalassembly.wistia.com/medias/u360zquzcm?embedType=async&videoFoam=true&videoWidth=640)
--->
+
 --------------------------------
+-->
 
 ## Practice
 
-_Slide Content_:
+#### Ready for some practice?  Try your hand at the following challenges. 
 
-Ready for some practice? Go to [repl.it/python](https://repl.it/languages/python) and try your hand at the following challenges. Repl.it is a safe online code editor that will allow you to practice the material you've learned here.
-
-* For best results, don't move onto the next slide until you've tried every step!
-
-## Open up [Repl.it](https://repl.it/languages/python) and give these a try:
+## Open the [containers_practice.py](https://github.com/JamesByers/GA_Python_for_Data_Science_workshop_08_2017/raw/master/4_Containers/containers_practice.py) and give these a try:
 
 1. Create a `list` called `my_list` and store the values `3,20,"hello","goodbye"` within it.
 

@@ -25,7 +25,6 @@ These tools allow you to create and distribute the code necessary to complete al
 ----------------------------------
 -->
 
-## Learning Objectives
 
 ### In order to do any work with python, you'll need a set of tools at your disposal
 The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow

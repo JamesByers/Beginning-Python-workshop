@@ -316,7 +316,7 @@ If you still find this question to be a bit tricky to understand, try copying th
 -->
 ## For Loops
  
-### The `for` loop makes looping easier, provided that we can provide for loop logic that will control when to stop looping
+### The `for` loop makes looping easier, provided that we can provide logic that will control when to stop thee `for` loop
 
 ----------------------------------
 

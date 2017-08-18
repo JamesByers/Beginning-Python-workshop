@@ -479,7 +479,7 @@ _Slide Content_:
 
 #### Ready for some practice?  Try your hand at the following challenges. 
 
-## Open the [containers_practice.py](https://github.com/JamesByers/GA_Python_for_Data_Science_workshop_08_2017/raw/master/4_Containers/containers_practice.py) and give these a try:
+Open the [containers_practice.py](https://github.com/JamesByers/GA_Python_for_Data_Science_workshop_08_2017/raw/master/4_Containers/containers_practice.py) file in Spyder and give these a try:
 
 1. Create a `list` called `my_list` and store the values `3,20,"hello","goodbye"` within it.
 

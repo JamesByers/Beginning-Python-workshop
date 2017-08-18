@@ -4,9 +4,9 @@
 
 ## By the end of this section you will be able to
 
-+ Demonstrate how to look up what is built into Python.
-+ Define lists, tuples, sets, and their common methods.
-+ Discriminate between lists and dictionaries.
++ Demonstrate how to look up what is built into Python
++ Define lists, tuples, sets, and their common methods
++ Differentiate between lists and dictionaries
 
 ----------------------------------
 <!--

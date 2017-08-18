@@ -2,7 +2,7 @@
 ##### DF2: Python for Data Science
 # Containers
 
-## By the end of this lesson you will be able to
+## By the end of this section you will be able to
 
 + Demonstrate how to look up what is built into Python.
 + Define lists, tuples, sets, and their common methods.
@@ -543,11 +543,11 @@ Have you finished practicing? Next, check your work against our suggested soluti
 -->
 ## Containers Review
 
-Now you know how to:
+Now you will be able to:
 
-+ How to look up what is built into Python
-+ Defining lists, tuples and their common methods
-+ The differences between lists and dictionaries
++ Look up what is built into Python
++ Define lists, tuples and their common methods
++ Describe the differences between lists and dictionaries
 <!--
 **End of Lesson Quiz**
 

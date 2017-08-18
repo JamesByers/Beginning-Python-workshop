@@ -219,4 +219,4 @@ To review, we discussed:
 - Upgrading your toolkit with open-source content such as plugins for text editors and interfaces including Jupyter Notebook..
 With these tools at your disposal, you'll be in great shape as you progress your Python capabilities!
 
-We will work today with tools from the Anaconda environment
+We will work today with tools from the [Anaconda environment](https://www.continuum.io/) environment on your laptop

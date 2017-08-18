@@ -154,7 +154,7 @@ animal_types = ['bird', 'giraffe', 'monkey']
 
 ----------------------------------
 
-## Lists, Cont.
+## Lists, cont.
 
 Here are some important points to remember about lists:
 
@@ -255,9 +255,10 @@ After evaluating both lines, `animal_types` contains four elements: `['bird', 'g
 - To extend it using another list, try `animal_types.extend(['porcupine', 'dog'])`.
 
 **Note:** Unlike string methods, these alter the original list! 
-<!-You may be wondering _why_. It's because the primitive data types in the last lesson — Booleans, numbers, strings — are **immutable**, and an immutable object never changes its value. Instead, the interpreter creates a new object and directs the name to it. For example, evaluating `312 + 457` actually creates a new `int` object, `769`! On the other hand, the methods of most containers (excluding strings and tuples) alter the same object for efficiency's sake. The language designers decided to not return a list to emphasize to the programmer that lists are **mutable** — the original was changed! This prevents you from making common mistakes.
--->
+<!-- You may be wondering _why_. It's because the primitive data types in the last lesson — Booleans, numbers, strings — are **immutable**, and an immutable object never changes its value. Instead, the interpreter creates a new object and directs the name to it. For example, evaluating `312 + 457` actually creates a new `int` object, `769`! On the other hand, the methods of most containers (excluding strings and tuples) alter the same object for efficiency's sake. The language designers decided to not return a list to emphasize to the programmer that lists are **mutable** — the original was changed! This prevents you from making common mistakes.
+
 ----------------------------------
+-->
 
 ## Tuples
 
@@ -275,7 +276,7 @@ month = (1, 'January', 31)
 
 ----------------------------------
 
-# List vs. Tuples
+## List vs. Tuples
 
 - Use lists when order is significant and elements are of the same data type.
 - Use tuples when order is not significant and the elements collectively represent something.

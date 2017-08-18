@@ -401,9 +401,9 @@ _Explanation*_: In this case, a set is preferable to a list, because testing for
 ----------------------------------
 -->
 
-## Discriminating Between Lists vs. Dictionaries
+## How Dictionaries differ from lists 
 
-### Dictionaries represent key-value pairs. For example:
+#### Dictionaries represent key-value pairs. For example:
 
 - Names could be paired with ages.
 - Months could be paired with the number of days in the month.
@@ -415,7 +415,7 @@ In this section, we will look at how to define dictionaries, as well as some com
 
 ## Dictionaries
 
-#### Similarly to sets, a dictionary is defined using curly braces
+#### Similarly a dictionary is defined using curly braces
 
 - Each element of a set consists of a key, followed by a colon, followed by a value. So, the presence of colons can be used to distinguish between a "set literal" and a "dictionary literal". For example:
 

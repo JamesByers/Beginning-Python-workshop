@@ -165,7 +165,7 @@ Here are some important points to remember about lists:
 Typically, the name of a list should be plural. For example, `cars`, `animal_names`, and `cities`. This immediately indicates that the name refers to a container.
 
 ----------------------------------
-<--
+<!--
 ## Lists, Cont.
 
 _Slide Content_:

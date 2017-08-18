@@ -1,4 +1,4 @@
-## Beginning Python Workshop
+#### Python for Data Science workshop
 ### Why Python?
 
 ### Welcome to Python

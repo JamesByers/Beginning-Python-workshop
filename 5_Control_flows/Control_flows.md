@@ -346,7 +346,7 @@ print('Done!')                         # Line 4
 
 ----------------------------------
 
-The `for` Statement
+## The `for` Statement
 
 #### The `for` statement always has the following structure:
 
@@ -392,7 +392,7 @@ _Explanation*_: Let's rename `s` to `sentence` and `c` to `character`. Then, for
 -->
 ----------------------------------
 
-## The `for` Statement, Cont.
+## The `for` Statement, cont.
 
 #### Let's look at another example:
 

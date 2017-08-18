@@ -256,9 +256,9 @@ After evaluating both lines, `animal_types` contains four elements: `['bird', 'g
 
 **Note:** Unlike string methods, these alter the original list! 
 <!-- You may be wondering _why_. It's because the primitive data types in the last lesson — Booleans, numbers, strings — are **immutable**, and an immutable object never changes its value. Instead, the interpreter creates a new object and directs the name to it. For example, evaluating `312 + 457` actually creates a new `int` object, `769`! On the other hand, the methods of most containers (excluding strings and tuples) alter the same object for efficiency's sake. The language designers decided to not return a list to emphasize to the programmer that lists are **mutable** — the original was changed! This prevents you from making common mistakes.
+-->
 
 ----------------------------------
--->
 
 ## Tuples
 
@@ -304,7 +304,7 @@ Because these are all strings (homogeneous) and order matters, this is best repr
 > You may be wondering why we would use tuples if they are actually more restrictive than lists. Making a data type immutable allows it to be more efficiently represented in memory. Furthermore, immutable types can be used in some additional objects (such as keys to dictionaries).
 
 ----------------------------------
-
+<!--
 > Knowledge Check | Multiple Choice
 
 _Description_: Select the best answer.
@@ -325,7 +325,7 @@ _Choices:*_
 _Explanation*_: Although the order of the computers may or may not be significant, each computer is of the same data type. Also, we could easily see another computer being appended at some point in time. So, `computers` should be a list. Each individual computer should be a tuple, as we discussed previously.
 
 ----------------------------------
-<!--
+
 ## Sets
 
 #### A set is a collection of unordered, unique elements. For example, two people may have watched different sets of movies.

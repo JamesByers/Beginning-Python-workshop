@@ -319,7 +319,7 @@ If you still find this question to be a bit tricky to understand, try copying th
 ## For Loops
  
 #### The `for` loop makes looping easier
-To use it we provide some logic to control when to stop the `for` loop
+To use it we provide logic that determines when the `for` loop stops
 
 <br>
 ----------------------------------

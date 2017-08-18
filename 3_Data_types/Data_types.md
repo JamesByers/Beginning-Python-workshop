@@ -26,15 +26,6 @@ _Explanation*_:  "I chose Python as a working title for the project, being in a 
 
 ----------------------------------
 
-## Why Is Python Useful for Data Science?
-
-+ **Open source** - You are not locked into using a particular company's products.
-+ **Large community** - Easily find answers to questions.
-+ **Interpreted** - Code can be run piece by piece, without creating an executable file.
-+ **Abundance of third-party packages** - Prewritten Python packages can be used for data science, video games, website backends, computer vision, and more.
-+ **Easy C integration.** - Speed-critical routines can be written in the low-level language C and easily integrated.
-
-----------------------------------
 
 <!--
 _Slide Title_:  When Might You Not Use Python?

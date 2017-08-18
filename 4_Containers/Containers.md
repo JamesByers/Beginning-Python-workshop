@@ -427,7 +427,7 @@ Notice this is a container of **key-value pairs**. So, `len(book_authors)` is `3
 
 ----------------------------------
 <!--
-## Dictionaries, Cont.
+## Dictionaries, cont.
 
 Alternatively, you can think of a dictionary as a generalized list! Instead of indexing items by integers, we now index them by their keys. For example: `book_authors['Moby Dick']` evaluates to `'Herman Melville'`.
 

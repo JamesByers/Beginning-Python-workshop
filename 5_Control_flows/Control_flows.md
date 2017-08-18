@@ -258,7 +258,7 @@ First, lines 1 and 2 are evaluated. Note that lines 3-5 are the `while` code blo
 
 ----------------------------------
 
-## Looping Through a List Using `while`, Cont.
+## Looping Through a List Using `while`, cont.
 
 ```
 primes = [2, 3, 5, 7]                  # Line 1
@@ -314,7 +314,7 @@ If you still find this question to be a bit tricky to understand, try copying th
 
 ----------------------------------
 -->
-<br>
+
 ## For Loops
  
 #### The `for` loop makes looping easier

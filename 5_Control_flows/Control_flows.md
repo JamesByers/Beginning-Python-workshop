@@ -211,8 +211,9 @@ You can think about the `while` statement as a repeated `if` statement. Just as 
 A `while` loop is generally used in Python when it is not known when the looping will stop. Or, when we do not know how many iterations the loop will require. For example, it is unknown when the user will enter `'yes'` in the last example. So, using a `while` loop here is appropriate.
 
 The `while` loop is in many ways the most basic looping construct. All other loops can be rewritten as a `while` loop.
-<!--
+
 ----------------------------------
+<!--
 
 > Knowledge Check | Multiple Select
 
@@ -230,12 +231,13 @@ _Choices:*_
 _Explanation*_: Python lists have a finite size, which we know in advance! (We will cover looping through them using the `for` loop in the next section.) In video games, a `while` loop is often used to wait until 33 milliseconds have elapsed — this guarantees an exact 30 frames per second. We do not know the number of iterations in advance here because execution speed can vary even on a single processor, muchless between computers.
 
 ----------------------------------
+-->
 
-_Slide Title:_ Looping Through a List Using `while`
+## Looping Through a List Using `while`
 
-_Slide Content:_
+#### Let's take a look at how we might print each element of a list using a `while` loop
 
-Let's take a look at how we might print each element of a list using a `while` loop. Generally, in Python this is done using a `for` loop (we'll see this next!). However, it is a good exercise to get insight into how Python's `for` loop might work.
+Generally, in Python this is done using a `for` loop (we'll see this next!). However, it is a good exercise to get insight into how Python's `for` loop might work.
 
 ```
 primes = [2, 3, 5, 7]   	       # Line 1
@@ -254,7 +256,6 @@ First, lines 1 and 2 are evaluated. Note that lines 3-5 are the `while` code blo
 
 > When you use `i` as a variable name, it must always refer to an index. This is one of the few times you can use a short variable name, since it is so universally understood.
 
--->
 ----------------------------------
 
 ## Looping Through a List Using `while`, Cont.
@@ -311,7 +312,7 @@ After this first iteration, now `total` is `4` and `summands` is `[3, 8, 1]`. No
 If you still find this question to be a bit tricky to understand, try copying the function into repl.it and placing a `print total` after `Line 4` and `Line 5`. This will allow you to see how `total` changes through each operation.  
 
 ----------------------------------
-
+-->
 ## For Loops
  
 ### The `for` loop makes looping easier, provided that we can provide for loop logic that will control when to stop looping

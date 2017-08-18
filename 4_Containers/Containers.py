@@ -33,29 +33,6 @@ sorted(a, reverse=True) # reverse=True is an 'optional argument'
 sorted(a, True)         # error because optional arguments must be named
 
 
-'''
-STRINGS
-'''
-
-# creating
-a = 'hello'     # can use single or double quotes
-
-# slicing
-a[0]        # returns 'h' (works like list slicing)
-a[1:3]      # returns 'el'
-a[-1]       # returns 'o'
-
-# concatenating
-a + ' there'        # use plus sign to combine strings
-5 + ' there'        # error because they are different types
-str(5) + ' there'   # cast 5 to a string in order for this to work
-
-# uppercasing
-a[0] = 'H'      # error because strings are immutable (can't overwrite characters)
-a.upper()       # string method (this method doesn't exist for lists)
-
-# checking length
-len(a)      # returns 5 (number of characters)
 
 
 '''
@@ -71,9 +48,13 @@ Bonus: Sort the list by the length of the names (shortest to longest).
 '''
 
 
-#[your code here]
 
-
+'''
+TUPLES
+'''
+# (month number, month name, num days)
+month = (1, 'January', 31)
+month[1]
 
 
 '''

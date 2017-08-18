@@ -399,11 +399,9 @@ _Explanation*_: Let's rename `s` to `sentence` and `c` to `character`. Then, for
 -->
 ----------------------------------
 
-_Slide Title:_ The `for` Statement, Cont.
+## The `for` Statement, Cont.
 
-_Slide Content:_
-
-Let's look at another example:
+#### Let's look at another example:
 
 ```
 # Sum N = 0,..,5
@@ -425,7 +423,7 @@ print(total)                        # Line 4
 ----------------------------------
 
 
-##`range`
+## `range`
 
 #### It was really cumbersome having to write the integers from 1 to 5! What if we wanted to sum the first 100 integers? Python gives us a  built-in function that does this, called `range()`.
 
@@ -450,6 +448,7 @@ Remember, `range(N)` creates a list of integers from `0` up to but not including
 
 
 --------------------------------
+<!--
 
 _Slide Title_: Lesson Demo
 
@@ -459,12 +458,15 @@ _Slide Content_:
 
 
 ----------------------------------
+-->
 
-##
+## You will know be able to:
 
-+ How to create and use `if`/`else` statements.
-+ How to create and us `while` statements.
-+ How to create and us `for` loops.
++ Create and use `if`/`else` statements
++ Create and us `while` statements
++ Create and us `for` loops
+
+----------------------------------
 
 <!--
 **End-of-Lesson Quiz**
@@ -552,14 +554,12 @@ _Choices:*_
 4. `summands` is not a valid set since all data types are not the same.
 
 _Explanation*_: First, if `summand` is -1, we want it to immediately exit the loop without adding -1 to total. Here, it adds -1 to total then exits the loop. Second, `summands` is a set, which has no guaranteed ordering. So, looping through it may return a different order each time or on different interpreters. Because our scheme depends on order, we should change this to a `list` instead. Note the `for` loop is not infinite, because `summands` is finite. 
---> 
+
 ----------------------------------
+--> 
+## Additional Resources
 
-_Slide Title_: Additional Resources
-
-_Slide Content_:
-
-If you're interested in gaining more practice with this topic, check out the following resource:
+#### If you're interested in gaining more practice with this topic, check out the following resource:
 
 - [Datacamp: Python Data Science Toolbox (Part 1)](https://www.datacamp.com/courses/python-data-science-toolbox-part-1). Specifically, see "Section 3. Lambda functions and error-handling," and complete the "Introduction to Error Handling" portion.
 

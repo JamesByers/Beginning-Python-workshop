@@ -9,7 +9,7 @@
 + Discriminate between lists and dictionaries.
 
 ----------------------------------
-<--
+<!--
 _Slide Title_:  Core Python: Small Yet Powerful
 
 _Slide Content_:

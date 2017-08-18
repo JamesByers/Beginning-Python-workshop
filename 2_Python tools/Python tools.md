@@ -1,6 +1,6 @@
 ##### Python for data science workshop
 
-## Common Data Python Tools
+## Common Python Data Tools
 
 <!--
 ##### Learning Objectives
@@ -12,7 +12,7 @@ By the end of this section you will be able to:
 
 ----------------------------------
 
-## Slideshow
+## Python Tool Types
 
 ### In order to do work with python over time, you'll need a set of tools at your disposal
 These tools allow you to create and distribute the code necessary to complete all the steps of a python development workflow. We will look at:
@@ -27,10 +27,10 @@ These tools allow you to create and distribute the code necessary to complete al
 
 ## Learning Objectives
 
-#### In order to do any work with python, you'll need a set of tools at your disposal
+### In order to do any work with python, you'll need a set of tools at your disposal
 The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow
 
-### By the end of this section you will be able to...
+#### By the end of this section you will be able to...
 
 + Discuss common python tools used by data scientists
 + Define the terminal, explain its features, and give examples of why it is useful.
@@ -112,7 +112,7 @@ Here are some useful commands to use within the CLI:
 
 ## Ok, but why use command line?
 
-#### The command line is a very different way of doing things than you may be used to
+### The command line is a very different way of doing things than you may be used to
 <br>
 The key benefit to you as a coder is that the command line gives you a whole set of new, powerful tools. Everything on the computer is scripted, which means it's all bits of code. This code can be run, examined, and manipulated within the command line. As a result, you can understand and even change what's happening in the programs you run, and especially those you create.
 <br>

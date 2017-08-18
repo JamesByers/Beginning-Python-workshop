@@ -443,7 +443,7 @@ To add a new key-value pair to the dictionary, index into a new key: `book_autho
 
 ----------------------------------
 -->
-## Dictionaries, Cont. 
+## Dictionaries, cont. 
 
 Another way of thinking about a dictionary is as a set of keys and a list of values. The container of keys must be a set, because each key is unique (i.e., has at most one value). With this in mind, two useful dictionary methods are:
 

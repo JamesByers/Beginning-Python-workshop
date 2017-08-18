@@ -314,12 +314,14 @@ If you still find this question to be a bit tricky to understand, try copying th
 
 ----------------------------------
 -->
+<br>
 
 ## For Loops
  
 #### The `for` loop makes looping easier
 To use it we provide some logic to control when to stop the `for` loop
 
+<br>
 ----------------------------------
 
 ## Looping Through a List Using `for`

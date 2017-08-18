@@ -1,4 +1,4 @@
-### Create code to do the following.
+### Create code to accomplish the following.
 
 # 1. Create an `int` called `my_int` and set it equal to `5`.
 

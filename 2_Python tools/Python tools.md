@@ -1,4 +1,5 @@
-# Begining Python Workshop
+##### Python for data science workshop
+
 ## Common Data Python Tools
 
 <!--
@@ -11,9 +12,9 @@ By the end of this section you will be able to:
 
 ----------------------------------
 
-### Slideshow
+## Slideshow
 
-#### In order to do work with python over time, you'll need a set of tools at your disposal
+### In order to do work with python over time, you'll need a set of tools at your disposal
 These tools allow you to create and distribute the code necessary to complete all the steps of a python development workflow. We will look at:
 
 - The terminal (also referred to as Command Line or Command Prompt).
@@ -24,12 +25,12 @@ These tools allow you to create and distribute the code necessary to complete al
 ----------------------------------
 -->
 
-### Learning Objectives
+## Learning Objectives
 
 #### In order to do any work with python, you'll need a set of tools at your disposal
 The tools discussed in this lesson allow you to create, compile, and distribute the code necessary to complete all the steps of a python development workflow
 
-#### By the end of this section you will be able to...
+### By the end of this section you will be able to...
 
 + Discuss common python tools used by data scientists
 + Define the terminal, explain its features, and give examples of why it is useful.
@@ -38,7 +39,7 @@ The tools discussed in this lesson allow you to create, compile, and distribute 
 
 ----------------------------------
 
-### Interacting with Python on Computers: The Command Line Interface
+## Interacting with Python on Computers: The Command Line Interface
 
 **Whenever we use a computer, we need a way to "talk to it" so that we can tell it what to do.**
 There are several ways to do this:
@@ -109,9 +110,9 @@ Here are some useful commands to use within the CLI:
  
 ----------------------------------
 
-### Ok, but why use command line?
+## Ok, but why use command line?
 
-The command line is a very different way of doing things than you may be used to
+#### The command line is a very different way of doing things than you may be used to
 <br>
 The key benefit to you as a coder is that the command line gives you a whole set of new, powerful tools. Everything on the computer is scripted, which means it's all bits of code. This code can be run, examined, and manipulated within the command line. As a result, you can understand and even change what's happening in the programs you run, and especially those you create.
 <br>
@@ -128,9 +129,9 @@ You'll find many other reasons to interact with the command line throughout your
 
 
 
-### Text Editors
+## Text Editors
 
-#### Not everything you want to do can be accomplished through the command line. So, rather than writing complex scripts in real time there, coders often use text editors.
+### Not everything you want to do can be accomplished through the command line. So, rather than writing complex scripts in real time there, coders often use text editors.
 
 **What is a Text Editor?**
 
@@ -148,9 +149,9 @@ We will be using ??? for this workshop so we can focus as much as possible on le
 
 ----------------------------------
 
-### Modern Text Editors
+## Modern Text Editors
 
-#### Text editors are very handy programs. They can:
+### Text editors are very handy programs. They can:
 
 - Open a file or directory.
 - Understand context.
@@ -164,9 +165,9 @@ Extensions and plugins are used to add additional features to a text editor.
 <!--
 ----------------------------------
 
-### Types of Text Files
+## Types of Text Files
 
-#### Text editors can understand, interpret, and edit a wide variety of text files.
+### Text editors can understand, interpret, and edit a wide variety of text files.
 
 Some examples are:
 - Plaintext (`.txt`)
@@ -183,9 +184,9 @@ Some examples are:
 
 ----------------------------------
 
-### Common Text Editors
+## Common Text Editors
 
-#### People use a variety of text editors. There's always a debate over [the best](http://blog.liveedu.tv/10-best-text-editors-programming-2016/)
+### People use a variety of text editors. There's always a debate over [the best](http://blog.liveedu.tv/10-best-text-editors-programming-2016/)
 
 **These are some of the most popular text editors among programmers below. You will want to download one of these and become familiar with it over time.**
 
@@ -198,9 +199,9 @@ GA often recommends Atom as their text editor of choice, as most of the necessar
 
 ----------------------------------
 
-### Other Open-Source tools
+## Other Open-Source tools
 
-#### Other tools you'll encounter in Python development and in data science are:
+### Other tools you'll encounter in Python development and in data science are:
 
 - [Git and GitHub](www.github.com): This version control software is used by individual programmers to track the progress of their projects and by teams to collaborate in an organized way. You will become more familiar with this program throughout the course, but, for now, consider it a way to organize and share files that preserves the history of their changes and keeps them safer.
 - [Jupyter Notebooks](jupyter.org/): Found in the Anaconda suite of tools (which is worth exploring in itself), the Jupyter Notebook tool allows you to create your code in organized "notebooks," which can intersperse code chunks (that can run individually in any order) with markdown text, allowing for easy annotation and clear, organized scripts. Jupyter offers an alternative to a text editor and is what is know as an integrated development environment (IDE), in which script can easily be written and executed. Throughout this course, we'll often present materials in a Jupyter Notebook to allow for easy demonstration of code, as well as offer well-formatted explanatory text, images, and videos.
@@ -210,9 +211,10 @@ Keep in mind that many open-source tools are created as plugins for text editors
 
 ----------------------------------
 
-### Review: Your available tools
+## Review: Your available tools
 
-At this point, you're aware of the tools necessary for completing most steps of the data science workflow. To review, we discussed:
+#### You are now aware of the tools necessary for completing most steps of the data science workflow
+To review, we discussed:
 - Navigating your computer and running scripts with the *command line*.
 - Creating code and complex scripts in your choice of *text editors*.
 - Upgrading your toolkit with open-source content such as plugins for text editors and interfaces including Jupyter Notebook..

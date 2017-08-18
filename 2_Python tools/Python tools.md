@@ -48,7 +48,7 @@ There are several ways to do this:
 - Shell: This is simply a type of command line program. Once you've booted up into your GUI-based operating system, if you want to interact with the command line, you'll need to open a program designed to do so. On a Mac, the default CLI shell is called the "terminal," and in Windows, it's the "Command Prompt."
 ![alt text](assets/terminal.png "Terminal")
 
-Example: Terminal app on Macs, Git Bash on windows.  
+Examples of command line interfaces: Terminal app on Macs and [Git Bash on windows](https://git-for-windows.github.io/) 
 <!--
 *NOTE: The following slides include commands that may behave differently on Windows computers. [Bash](https://www.gnu.org/software/bash/) is a free Unix shell that allows the Windows command line to use many of the same commands. You can also [learn more about the Windows CLI itself](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwjX1vz4n8rUAhXC7D4KHfVaBZcQFggsMAI&url=https%3A%2F%2Fcommandwindows.com%2Fcommand3.htm&usg=AFQjCNGWUZPreYMfxE_IbAljVKcC5gXspA&sig2=axivxJhs6yrk1_FepckxzQ), if you'd rather go that route.*
 
@@ -218,4 +218,4 @@ At this point, you're aware of the tools necessary for completing most steps of 
 - Upgrading your toolkit with open-source content such as plugins for text editors and interfaces including Jupyter Notebook..
 With these tools at your disposal, you'll be in great shape as you progress your Python capabilities!
 
-We will work today with the simplest way to interact with Python by using **???**
+We will work today with tools from the Anaconda environment

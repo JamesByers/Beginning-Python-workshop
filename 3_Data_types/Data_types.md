@@ -434,7 +434,7 @@ Note that adding a string and an integer would have given a `TypeError`. (This i
 ----------------------------------
 <br>
 <br>
-----------------------------------
+
 
 # Perform basic string indexing and use built-in methods
 

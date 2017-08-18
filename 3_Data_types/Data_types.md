@@ -152,9 +152,9 @@ In Python, **operators** act on one or two objects and evaluate to a single obje
 - `'a' + 'b'` evaluates to `'ab'`.
 
 An integer added to an integer evaluates to an integer. A string added to a string evaluates to a string.
-
-> Make sure you actively try these yourself in the REPL. **Pro tip:** Behind the scenes, Python actually [converts each operator into a function call](https://docs.python.org/3/library/operator.html#mapping-operators-to-functions)! For example, `'a' + 'b'` is evaluated as `'a'.__add__('b')`. The dot indicates we are calling a method of the `'a'` object. We will look at objects in more detail in Lesson 2!
 <!--
+> Make sure you actively try these yourself in the REPL. **Pro tip:** Behind the scenes, Python actually [converts each operator into a function call](https://docs.python.org/3/library/operator.html#mapping-operators-to-functions)! For example, `'a' + 'b'` is evaluated as `'a'.__add__('b')`. The dot indicates we are calling a method of the `'a'` object. We will look at objects in more detail in Lesson 2!
+
 ----------------------------------
 
 ## Operators, Cont.

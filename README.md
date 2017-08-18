@@ -6,6 +6,7 @@ GA Python for Data Workshop
 - Write conditional statements using if, elif and else in Python
 - Write a for loop in Python
 - Read and write large amounts of data using pandas
+
 - Perform common data manipulations including filtering, selecting specific rows and columns, along with other routine data analysis tasks with pandas.
 - Merge dataframes in various ways using pandas
 - Use Python for basic data analysis tasks (data cleaning and reformatting, exploration, analysis)

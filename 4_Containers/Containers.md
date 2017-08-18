@@ -291,7 +291,7 @@ Here, it is not meaningful that the computer name comes before the RAM amount. T
 
 ----------------------------------
 
-## List vs. Tuples, Cont.
+## List vs. Tuples, cont.
 
 Next, suppose we have a list ordered by most-used computer.
 

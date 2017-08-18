@@ -120,14 +120,28 @@ Julia is a newcomer to the field, but it's reputed to be a potential competitor 
 
 ----------------------------------
 
-### So, Why Python?
+## So, Why Python?
 
-There are many programming languages out there that are used commonly in data science and could be seen as competitors to Python. The reasons we're using Python (and 2.7 specifically) are:
-- It's a very **stable** language, with support from a core source and a thriving community built around it.
-- It's **versatile**, given the number of libraries developed for it.
-- It's **friendly**, in that it's both easy to learn and easy to understand/interpret, because of its clean formatting.
-- It's **powerful**, and can handle complex problems in simple, efficient ways, like by building pipelines within the code.
-- It's **free**!
-- It's **evolving** by virtue of being open source, so it can keep up with the developing data science field.
+There are many programming languages out there that are used commonly in data science and could be seen as competitors to Python. 
+
+#### The reasons we're using Python (and 2.7 specifically) are:
+- **Stable** language, with support from a core source and a thriving community built around it.
+- **Versatile**, given the number of libraries developed for it.
+- **Friendly**, in that it's both easy to learn and easy to understand/interpret, because of its clean formatting.
+- **Powerful**, and can handle complex problems in simple, efficient ways, like by building pipelines within the code.
+- **free**!
+- **evolving** by virtue of being open source, so it can keep up with the developing data science field.
+
+----------------------------------
+
+## Why Is Python particularly Useful for Data Science?
+
++ **Open source** - You are not locked into using a particular company's products.
++ **Large community** - Easily find answers to questions.
++ **Interpreted** - Code can be run piece by piece, without creating an executable file.
++ **Abundance of third-party packages** - Prewritten Python packages can be used for data science, video games, website backends, computer vision, and more.
++ **Easy C integration.** - Speed-critical routines can be written in the low-level language C and easily integrated.
 
 Python is an essential tool for your data science capabilities, so have fun exploring it and learning to use it.
+
+----------------------------------

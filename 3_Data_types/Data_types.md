@@ -472,8 +472,8 @@ Later, we will discuss **slicing**, an extension of indexing.
 
 > **Explore:** What do you think might happen if you index by a negative number? What if you index by a number greater than the length of the string? Do your answers agree with the choices the Python language designers made?
 
--->
 ----------------------------------
+-->
 
 ## Everything Is an Object!
 
@@ -492,7 +492,7 @@ For example: `'dog'.upper()`
 		- `animal.upper()` evaluates to 'DOG'
 		
 ----------------------------------
-## Everything Is an Object!
+## Everything Is an Object! cont.
 
 
 To view what methods are available in a Spyder, type: `'dog'.` (with a trailing period), then hit the `tab` key
@@ -547,7 +547,7 @@ You can start with the python_data_type_index_practice.py file
 
 
 --------------------------------
-<--
+<!--
 _Slide Title_: Lesson Practice Solutions
 
 _Slide Content_:

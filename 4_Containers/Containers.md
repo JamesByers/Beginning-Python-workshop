@@ -494,8 +494,9 @@ Open the [containers_practice.py](https://github.com/JamesByers/GA_Python_for_Da
 6. Collect all of the weekdays into a list.
 
 7. Delete `Monday` from `week_dict`.
-<!--
+
 --------------------------------
+<!--
 
 _Slide Title_: Lesson Practice Solutions
 

@@ -20,9 +20,9 @@ _Explanation*_:  "I chose Python as a working title for the project, being in a 
 
 #### By the end of this lesson you will be able to...
  
-+ Demonstrate how to assign and manipulate variables.
-+ Define primitive Python data types and common use cases (e.g., int, float, str).
-+ Utilize basic string indexing and built-in methods.
++ Demonstrate how to assign and manipulate variables in Python
++ Define primitive Python data types and common use cases (e.g., int, float, str)
++ Utilize basic string indexing and built-in methods
 
 ----------------------------------
 

@@ -467,7 +467,7 @@ _Slide Content_:
 
 
 Since `title` is a name that just points to the `'President'` object, you can also index into a newly created string! For example, `'giraffe'[0]` evaluates to `'g'`. Here, a string object is created then it is indexed into. When we wrote `title[0]`, it looked up the object `title` pointed to then indexed into it.
--->
+
 Later, we will discuss **slicing**, an extension of indexing.
 
 > **Explore:** What do you think might happen if you index by a negative number? What if you index by a number greater than the length of the string? Do your answers agree with the choices the Python language designers made?

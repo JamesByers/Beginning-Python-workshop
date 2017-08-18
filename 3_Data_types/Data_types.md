@@ -594,12 +594,10 @@ Have you finished practicing? Next, check your work against our suggested soluti
 -->
 ## Lesson Review
 
-### By now you should have a solid understanding of..._
-
-+ Python's role in data science.
-+ How to assign and manipulate variables.
-+ Primitive Python data types and common use cases (e.g., int, float, str).
-+ Basic string indexing and built-in methods.
+### Now you will be able to:
++ Assign and manipulate variables.
++ Describe primitive Python data types and common use cases (e.g., int, float, str).
++ Perforn basic string indexing and built-in methods.
 
 
 ----------------------------------

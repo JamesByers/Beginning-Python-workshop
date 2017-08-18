@@ -523,7 +523,7 @@ Ready for some practice? Go to [repl.it/python](https://repl.it/languages/python
 * For best results, don't move onto the next slide until you've tried every step!
 -->
 ###  Open up a new python tab in Spyder and create code to do the following.
-You can start with the python_data_type_index_practice.py file
+Open the [data_type_index_practice.py](https://github.com/JamesByers/GA_Python_for_Data_Science_workshop_08_2017/raw/master/3_Data_types/data_type_index_practice.py) file
 
 1. Create an `int` called `my_int` and set it equal to `5`.
 		

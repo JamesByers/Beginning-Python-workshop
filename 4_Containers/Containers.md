@@ -247,7 +247,7 @@ After evaluating both lines, `animal_types` contains four elements: `['bird', 'g
 
 ----------------------------------
 
-## List Methods
+## List Methods cont.
 
 - To sort the list, try `animal_types.sort()`.
 - To remove the last element and return it, try `animal_types.pop()`.
@@ -262,6 +262,7 @@ After evaluating both lines, `animal_types` contains four elements: `['bird', 'g
 
 ## Tuples
 
+### The name tuple is meant to be a shorthand for fixed and predetermined data meanings
 Tuples are similar to lists in that they are containers of objects. However, there are two main differences:
 
 - They are defined using parentheses instead of brackets.
@@ -278,8 +279,9 @@ month = (1, 'January', 31)
 
 ## List vs. Tuples
 
-- Use lists when order is significant and elements are of the same data type.
-- Use tuples when order is not significant and the elements collectively represent something.
+### uideline:
+- Use lists when order is important and adding elements is expected
+- Use tuples when order is not significant, the elements collectively represent something, and the contents are never changed
 
 For example, suppose we have a computer defined by a name, amount of RAM, and date of manufacture.
 
@@ -287,7 +289,7 @@ For example, suppose we have a computer defined by a name, amount of RAM, and da
 my_computer = ('WORK_COMPUTER', 8, 2017)
 ```
 
-Here, it is not meaningful that the computer name comes before the RAM amount. The order could have just as easily been defined differently without consequences. Additionally, the elements have mixed data types that are attributes of a whole. So, this computer is best represented as a tuple.
+Here, it is not meaningful that the computer name comes before the RAM amount. The order could have just as easily been defined differently without consequences. If we are alright with never being able to alter it's contents is best represented as a tuple.
 
 ----------------------------------
 

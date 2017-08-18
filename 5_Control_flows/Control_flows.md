@@ -276,8 +276,9 @@ print('Done!')                         # Line 6
 - Then it evaluates Line 3 again. Is `i < len(primes)`? Now, `i` is `1` and `len(primes)` is still 4. So, `i < len(primes)` becomes `1 < 4`, which is `True`. Hence, we execute Line 4 — the value of `primes[1]` is displayed (`3`). Now, Line 5 is evaluated and `i` is incremented to `2`.
 
 - This is continued until finally `i` is 4. At this point, `i < len(primes)` is evaluated to `4 < 4` which is `False`. So, we jump to the line after the code block, Line 6, and display `Done!`.
-<!--
+
 ----------------------------------
+<!--
 
 > Knowledge Check | Multiple Choice
 

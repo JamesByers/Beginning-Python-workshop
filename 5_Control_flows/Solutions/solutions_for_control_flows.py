@@ -1,6 +1,6 @@
 # This file contains the solutions for the exercise in control__flows.py
 '''
-EXERCISE 1:
+EXERCISE 1: Note: you may want to code a regular for loop first and then turn it into a list comprehension
 Given that: letters = ['a', 'b', 'c']
 Write a list comprehension that returns: ['A', 'B', 'C']
 EXERCISE 2 (BONUS):

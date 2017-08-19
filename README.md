@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) GA Python for Data Science workshop 
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Python for Data Science workshop 
 
 ### By the end of the workshop, you will have the tecniques be able to:
 - Understand commonly used built-in Python data types, including lists, tuples, and dictionaries

@@ -1,7 +1,7 @@
 # GA_Begining_Python_workshop_08_2017
 GA Python for Data Workshop 
 
-### By the end of the workshop, students will be able to:
+### By the end of the workshop, you will be able to:
 - Understand commonly used built-in Python data types, including lists, tuples, and dictionaries
 - Write conditional statements using if, elif and else in Python
 - Write a for loop in Python

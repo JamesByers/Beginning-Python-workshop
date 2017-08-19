@@ -15,3 +15,7 @@
 
 ### Agenda
 The workshop agenda is [here](https://docs.google.com/spreadsheets/d/1Th5doTH8UfYfq3WfKO06kYFJ2DRzR_f2DmnEjE3oUQw/edit?usp=sharing)
+
+<br>
+<br>
+All rightd reserved.

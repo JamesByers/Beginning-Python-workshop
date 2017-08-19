@@ -18,4 +18,4 @@ The workshop agenda is [here](https://docs.google.com/spreadsheets/d/1Th5doTH8Uf
 
 <br>
 <br>
-All rightd reserved.
+All rights reserved.
